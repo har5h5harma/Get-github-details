@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Heading Styling */
+.hi {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Search Section */
+.search h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.inpt {
+  font-size: 1rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Main Output Section */
+.main {
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: left;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.main p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.main a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .inpt {
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.main .photo{
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  margin-bottom: 20px;
+}
